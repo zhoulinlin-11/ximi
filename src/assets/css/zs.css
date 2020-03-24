@@ -1,0 +1,118 @@
+body{
+	background-color: #f9f9f8;
+}
+/*搜索start*/
+.sousou{
+	width: 100%;
+	/*height: 0.5rem;*/
+	padding: 0.08rem 0.2rem;
+	background-color: #8e1620;
+}
+.sousou input{
+	width: 98.6%;
+	height: 0.38rem;
+	text-indent: 0.4rem;
+	outline: none;
+	border-radius: 0.08rem;
+	background:url(../images/sou.png) no-repeat 0.1rem 0.06rem /0.2rem 0.2rem;
+	background-color: #ffffff;
+}
+/*搜索end*/
+/*频道start */
+.first{
+	margin-top: 0.16rem;
+	width: 100%;
+	/*background-color: pink;*/
+	text-align: center;
+}
+.first .one{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.first .one li{
+	width: 25%;
+	height: 0.42rem;
+	border:1px solid #f9f9f8;
+	border-left:none; 
+	line-height: 0.42rem;
+}
+.first .tow{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.first .tow li{
+	width: 33.33%;
+	height: 0.42rem;
+	border:1px solid #f9f9f8;
+	border-left:none; 
+	line-height: 0.42rem;
+}
+/*频道end*/
+/*品牌start*/
+.tent{
+	margin-top: 0.16rem;
+	width: 100%;
+	/*background-color: pink;*/
+	text-align: center;
+}
+.tent .four{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.tent .four li{
+	width: 50%;
+	height: 0.42rem;
+	border:1px solid #f9f9f8;
+	border-left:none; 
+	line-height: 0.42rem;
+}
+/*<!--品牌end -->*/
+/*店铺主页start */
+.dian{
+	margin-top: 0.6rem;
+	width: 100%;
+	text-align: center;
+}
+.dian span{
+	margin: 0.2rem;
+	padding-left: 0.1rem;
+	color: #ccc;
+	border-left: 1px solid #f9f9f8;
+}
+.dian .bor{
+	border-left: none;
+}
+/*店铺主页end*/
+/*底部start */
+.last{
+	width:100%;
+	height:0.46rem;
+	position: fixed;
+	bottom:0;
+	right: 0;
+	left:0;
+	background-color: #fff;
+	/*background-color: pink;*/
+}
+.last ul{
+	display:-webkit-flex;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	padding-top: 0.02rem;
+}
+.last ul li{
+	/*width: 20%;*/
+	height:100%;
+}
+.last ul li a img{
+	width: 0.36rem;
+	height:0.36rem;
+}
+/*底部end*/

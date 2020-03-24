@@ -1,0 +1,84 @@
+body{
+	font-family: 宋体;
+	background-color: #f8f8f8;
+}
+.all{
+	padding:0.2rem;
+}
+.all .h3{
+	font-size: 0.24rem;
+	color:#333333;
+	margin-top: 0.3rem;
+}
+.all .we{
+	font-size: 0.14rem;
+	color:#999999;
+	margin: 0.2rem 0;
+}
+.all .phone{
+	height:0.44rem;
+	line-height: 0.44rem;
+	border-bottom:1px solid #eeeeee;
+}
+.all .phone .font{
+	color: #eeeeee;
+}
+.all .phone input{
+	border:none;
+	width: 80%;
+	outline:none;
+	background-color: #f8f8f8;
+}
+.all .pass{
+	height:0.44rem;
+	line-height: 0.44rem;
+	border-bottom:1px solid #eeeeee;
+}
+.all .pass input{
+	border:none;
+	width: 88%;
+	outline:none;
+	background-color: #f8f8f8;
+}
+.all .an{
+	display: -webkit-flex;
+	display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.all .an .denglu{
+	width: 80%;
+	height: 0.44rem;
+	font-size: 0.16rem;
+	color: #fff;
+	outline: none;
+    border: none;
+    margin-top: 0.3rem;
+	background-color: #7fdcac;
+}
+.all .last{
+	display: -webkit-flex;
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.2rem;
+}
+.all .last a{
+	font-size: 12px;
+	color: #3388ff;
+}
+.all .last .right span{
+	color: #ccc;
+}
+.all .xieyi{
+	font-size: 0.12rem;
+	color: #BBBBBB;
+	margin-top: 2rem;
+	text-align: center;
+}
+.all .xieyi a{
+	font-size: 0.12rem;
+	color: #BBBBBB;
+	border-bottom: 1px solid #BBBBBB;
+}
+

@@ -1,0 +1,123 @@
+body{
+	background-color: #f9f9f9;
+}
+/*头部start*/
+.top{
+	width: 100%;
+	height: 0.42rem;
+	background-color: #ffffff;
+}
+.top .shouhang{
+	padding: 0.1rem;
+	text-align: center;
+}
+.top .shouhang ul{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.top .shouhang li{
+	width: 90px;
+}
+.top .shouhang li a{
+	font-size: 12px;
+	color: #000000;
+	padding-right: 0.08rem;
+	border-right: 1px solid #CCCCFC; 
+}
+.top .shouhang li a.one{
+	border:none;
+}
+/*头部end*/
+
+/*搜索start*/
+.sousou{
+	width: 100%;
+	/*height: 0.5rem;*/
+	padding: 0.08rem 0.2rem;
+	background-color: #8e1620;
+}
+.sousou input{
+	width: 98.6%;
+	height: 0.38rem;
+	text-indent: 0.4rem;
+	outline: none;
+	border-radius: 0.08rem;
+	background:url(../images/sou.png) no-repeat 0.1rem 0.06rem /0.2rem 0.2rem;
+	background-color: #ffffff;
+}
+/*搜索end*/
+/*中间商品start*/
+.content{
+	width: 100%;
+	/*height:;*/
+	margin-bottom: 1.3rem;
+	/*padding:0 0.12rem;*/
+	margin-top:0.36rem;  
+	
+}
+.content .font{
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	height: 0.6rem;
+	text-align: center;
+    line-height: 0.6rem;
+    background-color: #fff;
+}
+.content .font .fo{
+	width: 50%;
+	/*height: */
+}
+.content .font .fo a{
+	color:black;
+}
+.content ul{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+	width: 100%;
+	padding:0 0.12rem;
+	margin-top: 0.08rem;
+}
+.content ul li{
+	width:33.33%;
+	/*height:2.48rem;*/
+	padding:0.05rem;
+	background-color: #fff;
+}
+.content ul li img{
+	width: 100%;
+	/*width: 2.24rem;
+	height:2.24rem;*/
+}
+/*中间商品end */
+/*底部start */
+.last{
+	width:100%;
+	height:0.46rem;
+	position: fixed;
+	bottom:0;
+	right: 0;
+	left:0;
+	background-color: #fff;
+	/*background-color: pink;*/
+}
+.last ul{
+	display:-webkit-flex;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	padding-top: 0.02rem;
+}
+.last ul li{
+	/*width: 20%;*/
+	height:100%;
+}
+.last ul li a img{
+	width: 0.36rem;
+	height:0.36rem;
+}
+/*底部end*/

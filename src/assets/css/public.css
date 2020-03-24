@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix::after{
+	display:block;
+	content:"";
+	clear:both;
+}
